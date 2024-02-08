@@ -1,0 +1,234 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.colors{
+    background-color: #f1fffd;
+    color:#cafff9;
+    color: #00473f;
+    color: #12665c;
+    color: #99e1d9;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    background-color: #f1fffd;
+    overflow-x: hidden;
+}
+#head{
+    background-color: #cafff9;
+    height: 400px;
+    padding: 20px 0;
+}
+.navbar{
+    margin: 0;
+    width: 100%;
+    background-color: #cafff9;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    padding: 30px 0;
+}
+#navbar-name{
+    position: absolute;
+    left: 30px;
+    color: #12665c;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.navbar-btn-container{
+    position: absolute;
+    right: 30px;            
+    margin-left: 260%;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    align-items: center;
+}
+.navbar-btn{
+    border:none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: inherit;
+    color: #12665c;
+
+}
+.navbar-btn:hover{
+    cursor: pointer;
+    color:#00473f;
+    border-bottom: 2px solid #00473f;
+}
+.head-info{
+    font-size: 60px;
+    color: #00473f;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.head-info-small{
+    font-size: 20px;
+    color: #00473f;
+    text-align: center;
+}
+.section-title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #00473f;
+    text-align: center;
+}
+.about{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    padding: 20px;
+}
+.about-img{
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+}
+
+.intro-div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 20px 10px;
+}
+.intro-div p>span{
+    font-size: 25px;
+    margin:5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.read-btn{
+    border: none;
+    width: 100px;
+}
+
+.intro-desc{
+    font-size: 18px;
+    margin: 5px 0;
+    color: #12665c;
+    text-align: center;
+}
+.read-more-btn{
+    cursor: pointer; 
+    color: #00473f; 
+    font-weight: bold;
+}
+.read-more-btn:hover{
+    font-size: 20px
+}
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #cafff9;
+    padding: 30px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 20px;     
+    width: 600px;
+}
+
+.projects a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #00473f;
+}
+.project-img{
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}   
+.projects .project-img:hover{
+    height:280px;
+    border-radius: 10px;
+    transition:1s ease;
+    box-shadow: 1px 1px 10px 2px #12665c;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 30px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.message-btn{
+    margin: 10px;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border:1px solid #00473f ;
+    background-color: #cafff9;
+    color: #00473f;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-info-sec{
+    width: 400px;
+}
+.links-sec{
+    width: 220px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#footer{
+    background-color: #cafff9; 
+    padding: 20px 0;
+}
+.footer-options-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    color: #12665c;
+    font-weight: bold;
+}
+.footer-options-container>span:hover{
+    color: #00473f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-copy{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+@media only screen and (max-width:1000px){
+    .intro-div{
+        margin-left: 10%;
+    }
+    #head-name{
+        font-size: 40px;
+    }
+    #head-desc{
+        font-size: 20px;
+    }
+
+}

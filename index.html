@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gajanan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+        
+</head>
+<body>
+    <div id="head">
+        <div class="navbar">
+            <span id="navbar-name">
+                Gajanan D. Thawari
+            </span>
+            <div class="navbar-btn-container">
+                <button type="button" class="navbar-btn">
+                    <a href="#navbar-name">Home</a></button>
+
+                <button type="button" class="navbar-btn">
+                    <a href="#about">About</a> </button>
+                <button type="button" class="navbar-btn">
+                    <a href="#my-projects">Projects</a></button>
+                
+                <button type="button" class="navbar-btn">
+                    <a href="#contact">Contact</a></button>
+            </div>
+        </div>
+        <div style="padding-top: 30px;" >
+            <p class="head-info">I'm Gajanan</p>
+            <p class="head-info-small">a Front-End Developer </p>
+        </div>
+    </div>
+
+    <p class="section-title" id="about">About Me </p>
+    <div class="about">
+        <img src="./c:\Users\Ot\Downloads\gajya\ot image.jpg" class="about-img" alt="photo"/>
+        <div class="intro-div">
+            <p class="intro-desc">I am a Computer Engineering Student,</p>
+            <p class="intro-desc"> I am currently studing web developmment using MERN stack.</p>
+            <p style="display: flex; justify-content: center;">
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-solid fa-envelope"></i></span>
+            </p>
+            <p class="intro-desc read-more-btn" style="" >Read More <i class="fa-solid fa-chevron-down"></i></p>
+        </div>
+    </div>
+
+    <div style="background-color: #cafff9; padding-top: 10px;">
+        <p class="section-title" id="my-projects"> My Projects </p>
+        <div class="projects-container">
+            <div class="projects">
+                <a href="https://icp-6-group-6-html-css-project-1.vercel.app/"> <img src="./images/project1.png" class="project-img" alt="Dream's Land prject image"/>  </a>
+                
+                <div class="project-hidden-div">
+                    <p><a href="https://icp-6-group-6-html-css-project-1.vercel.app/"> Dream's Land <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 15px;"></i></a></p>
+                    <p>This is Project made for Road to Codes 1st Group Project</p>
+                </div>
+            </div>
+            <div class="projects ">
+                <a href="https://readit-book-store.vercel.app/"><img src="./images/project2.png" class="project-img" alt="Readit book store prject image"/></a>
+                <div class="project-hidden-div">
+                    <p><a href="https://readit-book-store.vercel.app/"> Readit-Book Store <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 15px;"></i> </a></p>
+                    <p>This is Project made for Road to Codes 2nd Group Project</p>
+                </div>
+                
+            </div>
+        </div>
+`   </div>
+
+
+    <p class="section-title" id="contact"> Contact </p>
+    <div class="contact">
+        <div class="message">
+            <textarea cols="40" rows="10" placeholder="Message" id="text-in-msg"></textarea>
+            <button type="button" class="message-btn" onclick="sendMessage()">Send</button>
+        </div>
+        <div class="contact-info-sec">
+            <p>You can contact me using following links. Please also check the projects linked above.</p>
+            <div class="links-sec">
+                <span style="cursor: pointer;"><i class="fa-brands fa-linkedin" ></i> LinkedIn</span> 
+                <span style="cursor: pointer;"><i class="fa-brands fa-instagram"></i> Instagram</span>
+                <span style="cursor: pointer;"><i class="fa-brands fa-twitter"></i> Twitter</span>
+                <span style="cursor: pointer;"><i class="fa-solid fa-envelope" ></i> Email</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="footer-options-container">
+            <span>LinkedIn</span>
+            <span>Instagram</span>
+            <span>Twitter</span>
+            <span>Email</span>
+        </div>
+        <p class="footer-copy">© Ashish Gore </p>
+    </div>
+
+    
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/4d47a5db67.js" crossorigin="anonymous"></script>
+</body>
+</html>
